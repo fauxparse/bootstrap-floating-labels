@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./floating-labels.css">
+    <style type="text/css" media="screen">
+      body {
+        padding-top: 4em;
+      }
+
+      input, textarea {
+        font-weight: 100;
+      }
+      
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./floating-labels.js"></script>
+
+    <title>Bootstrap floating labels</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1>Bootstrap floating labels</h1>
+      <p>Inspired by <a href="http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users">Matt D. Smith</a></p>
+      
+    
+      <form role="form">
+        <div class="row">
+          <div class="form-group col-xs-12 floating-label-form-group">
+            <label for="title">Title</label>
+            <input class="form-control" type="text" name="title" placeholder="Title">
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-xs-4 floating-label-form-group">
+            <label for="price">Price</label>
+            <input class="form-control" type="text" name="price" placeholder="Price">
+          </div>
+          <div class="form-group col-xs-8 floating-label-form-group">
+            <label for="location">Specific location (optional)</label>
+            <input class="form-control" type="text" name="location" placeholder="Specific location (optional)">
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-xs-12 floating-label-form-group">
+            <label for="description">Description</label>
+            <textarea placeholder="Description" class="form-control" rows="5"></textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  </html>
