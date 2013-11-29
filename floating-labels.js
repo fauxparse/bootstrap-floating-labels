@@ -6,4 +6,7 @@ $(function() {
   }).on("blur", ".floating-label-form-group", function() {
     $(this).removeClass("floating-label-form-group-with-focus");
   });
+  $(".floating-label-form-group").each(function(e){
+	  $(this).toggleClass("floating-label-form-group-with-value", !!$(this).find('input, textarea').val());
+  });
 });
