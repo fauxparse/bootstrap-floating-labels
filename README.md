@@ -15,7 +15,14 @@ Requirements
 Usage
 -----
 Just include `floating-labels.css` and `floating-labels.js`, then add the
-`floating-label-control-group` class to any `control-group`s you want to attach
+`floating-label-form-group` class to any `form-group`s you want to attach
 the behaviour to.
+
+Example
+-----
+<div class="form-group floating-label-form-group">
+  <label for="exampleInputPassword1">Password</label>
+  <input type="password" class="form-control " id="exampleInputPassword1" placeholder="Password">
+</div>
 
 Should work anywhere Bootstrap works.
