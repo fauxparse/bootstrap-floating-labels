@@ -1,4 +1,4 @@
-Bootstrap floating labels
+Bootstrap floating labels Awesome Project
 =========================
 
 A new placeholder UI design for Bootstrap forms.
